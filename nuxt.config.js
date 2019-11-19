@@ -72,7 +72,8 @@ module.exports = {
   env: {
     SPOTIFY_ID: process.env.SPOTIFY_CLIENT_ID,
     SPOTIFY_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
-    LASTFM_KEY: process.env.LASTFM_KEY
+    LASTFM_KEY: process.env.LASTFM_KEY,
+    SERVER: process.env.SERVER
   },
   /*
   ** Axios configuration
@@ -85,7 +86,7 @@ module.exports = {
   */
   router: {
     middleware: ['auth'],
-    base: '/sonido/'
+    // base: '/sonido/'
   },
   /*
   ** Add authentication config
