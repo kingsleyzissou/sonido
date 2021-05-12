@@ -20,7 +20,7 @@
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/dotenv": "^1.4.1",
     "@saeris/vue-spinners": "^1.0.8",
-    "chart.js": "^2.9.2",
+    "chart.js": "^2.9.4",
     "colorthief": "^2.3.0",
     "cross-env": "^5.2.0",
     "downloadjs": "^1.4.7",
